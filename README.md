@@ -2,13 +2,11 @@
 
 ## Introduction
 
-This script uses R to perform Getting and Cleaning data on the acceleration dataset acquired on the Samsung Galaxy S smartphone.
-First, download the UCI HAR Dataset from the link. The download folder contains the test and training data for the various accelerations, the label data containing numbers from 1 to 6 for each value, data describing the label numbers and column name data separately in txt file format.
-The goal is to combine these data into one data frame in R and output a summary of the mean and standard deviation per label for the various acceleration data.
+This script uses R to perform data cleaning on the acceleration dataset acquired from the Samsung Galaxy S smartphone. First, download the UCI HAR Dataset from the provided link. The downloaded folder contains the test and training data for various accelerations, the label data with numbers from 1 to 6 for each value, data describing the label numbers, and column name data in separate txt files. The goal is to combine these data into one data frame in R and output a summary of the mean and standard deviation per label for the various acceleration data.
 
-## Assignment
+## Background
 
-You can see more information for the assignment below.
+This script is the assignment for the Data Science course designed by Johns Hopkins University on Coursera. You can see more information about the background below.
 
 >The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 >
