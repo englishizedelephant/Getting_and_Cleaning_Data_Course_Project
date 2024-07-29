@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This script uses R to perform data Getting and Cleaning on the acceleration dataset acquired on the Samsung Galaxy S smartphone.
+This script uses R to perform Getting and Cleaning data on the acceleration dataset acquired on the Samsung Galaxy S smartphone.
 First, download the UCI HAR Dataset from the link. The download folder contains the test and training data for the various accelerations, the label data containing numbers from 1 to 6 for each value, data describing the label numbers and column name data separately in txt file format.
 The goal is to combine these data into one data frame in R and output a summary of the mean and standard deviation per label for the various acceleration data.
 
